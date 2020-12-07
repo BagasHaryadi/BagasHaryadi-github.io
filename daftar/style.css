@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.mulai {
+  width: 100%;
+  height: 100vh;
+}
+.title {
+  margin: auto 40%;
+  padding-top: 50px;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.daftar {
+  display: block;
+  width: calc(30% - 20px);
+  padding-bottom: 20px;
+  background: none;
+  color: white;
+  outline: none;
+  border: none;
+  margin: auto 40%;
+}
+.daftar i {
+  display: block;
+  color: #1f2e51;
+  padding-bottom: 5px;
+  position: absolute;
+  margin: 10px 10px;
+}
+.daftar input {
+  width: 63%;
+  height: 5vh;
+  padding: 0 2rem;
+  border-radius: 5px;
+}
+.daftar button {
+  width: 80%;
+  height: 5vh;
+  background-color: #0a52f9;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.daftar button:hover {
+  background-color: #1f2e51;
+}
+a {
+  text-decoration: none;
+}
+.active {
+  color: #acacaa;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+h2 {
+  color: #1f2e51;
+  font-size: 40px;
+}
+p {
+  color: #acacaa;
+}
+.outher-google {
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+.outher-google img {
+  padding: 0 1rem;
+}
